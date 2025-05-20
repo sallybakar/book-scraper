@@ -69,7 +69,7 @@ scrapy crawl bookspider
 
     Scrapy
 
-    SQLite (optional)
+    SQLite 
 
     JSON
 
