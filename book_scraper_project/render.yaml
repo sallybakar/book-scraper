@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: book-scraper
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: scrapy crawl bookspider
